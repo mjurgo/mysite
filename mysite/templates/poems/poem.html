@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="text-center">
+    <h1>{{ poem.title }}</h1>
+    <h2>{{ poem.author }}</h2>
+    <p class="poem-content">
+    {% for line in poem.content.split('\n') %}
+        {{ line }}<br>
+    {% endfor %}
+    </p>
+    <a href="{{ url_for('index') }}" class="btn btn-primary">Powrót</a>
+</div>
+{% endblock content %}
