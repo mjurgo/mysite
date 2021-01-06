@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% block content %}
 <div class="text-center">
-    <h1>{{ poem.title }}</h1>
+    <h1 class="poem-title">{{ poem.title }}</h1>
     <h2>{{ poem.author }}</h2>
     <p class="poem-content">
     {% for line in poem.content.split('\n') %}
