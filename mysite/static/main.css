@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+
+header {
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #245586 !important;
+}
+
+.navbar-brand {
+    font-family: 'Hanalei Fill', cursive;
+}
