@@ -1,4 +1,18 @@
-<header>
+<nav class="navbar is-info" role="navigation" aria-label="main navigation">
+  <div class="container">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="{{ url_for('index') }}">Start</a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="{{ url_for('poem') }}">Wiersz</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+{# <header>
     <nav class="navbar navbar-expand-md navbar-dark px-4">
       <div class="container container-fluid">
         <a class="navbar-brand" href="{{ url_for('index') }}">Bieda strona</a>
@@ -14,4 +28,4 @@
         </div>
       </div>
     </nav>
-</header>
+</header> #}

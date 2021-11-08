@@ -1,13 +1,15 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
 @import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
 
 header {
     margin-bottom: 20px;
 }
 
-nav {
+/* nav {
     background-color: #245586 !important;
-}
+} */
 
-.navbar-brand {
+.navbar-brand a {
     font-family: 'Hanalei Fill', cursive;
+    font-size: 1.25rem;
 }

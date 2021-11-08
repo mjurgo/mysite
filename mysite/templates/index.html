@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 {% block content %}
-    <div class="text-center mt-3">
-        <h1>Inwokacja</h1>
+    <div class="has-text-centered mt-3">
+        <h1 class="title is-1">Inwokacja</h1>
         <p>
             Litwo, Ojczyzno moja! ty jesteś jak zdrowie;<br>
             Ile cię trzeba cenić, ten tylko się dowie,<br>
@@ -26,7 +26,6 @@
             A wszystko przepasane, jakby wstęgą, miedzą<br>
             Zieloną, na niej z rzadka ciche grusze siedzą.
         </p>
-        <a class="btn btn-primary text-center" href="{{ url_for('poem') }}">Wierszyk</a>
-        <p><small>Na razie ubogo, nie chce mi się dodawać ich do bazy.</small></p>
+        <a class="button is-info mt-2" href="{{ url_for('poem') }}">Wierszyk</a>
     </div>
 {% endblock content %}

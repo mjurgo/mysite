@@ -1,6 +1,6 @@
 import random
 
-from flask import render_template, url_for
+from flask import render_template
 
 from mysite import app
 from mysite.models import Poem
